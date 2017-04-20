@@ -1,0 +1,16 @@
+[package]
+name = "nineanime"
+version = "0.1.0"
+authors = ["mikopits <mikopits@gmail.com>"]
+
+[dependencies]
+hyper = "0.10.8"
+hyper-native-tls = "0.2.2"
+kuchiki = {version = "0.4.1", features = ["hyper"]}
+log = "0.3.7"
+serde = "0.9.14"
+serde_derive = "0.9.14"
+serde_json = "0.9.10"
+
+[dev-dependencies]
+env_logger = "0.4.2"
